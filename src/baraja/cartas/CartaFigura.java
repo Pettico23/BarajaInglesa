@@ -12,6 +12,11 @@ public class CartaFigura extends CartaConPalo {
         this.letra = letra;
     }
     
+    @Override
+    public String getRepresentacion(){
+        return letra + super.getRepresentacion();
+    }
+    
     
     
 }

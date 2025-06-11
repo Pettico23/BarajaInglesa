@@ -9,6 +9,11 @@ public class CartaJoker extends Carta {
         this.aColor = aColor;
     }
     
+    @Override
+    public String getRepresentacion(){
+        return "Joker " + (aColor ? "a colores": "blanco y negro");
+    }
+    
     
     
 }
